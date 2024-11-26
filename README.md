@@ -30,7 +30,7 @@ This document is intended for technical stakeholders, particularly the developme
 
 The **ThreadHandleObject** aims to provide a user-friendly wrapper for FRunnable threading framework inside Unreal Engine, keeping raw C++ code separate from Unreal C++ framework, customizable threading framework, and stable code execution using mutex locking. 
 
-1. **Design<a name="_page2_x70.00_y432.00"></a> Goals** 
+4. **Design<a name="_page2_x70.00_y432.00"></a> Goals** 
 
 The design goals for creating the **ThreadHandleObject** are: 
 
@@ -38,27 +38,27 @@ The design goals for creating the **ThreadHandleObject** are:
 - Provide thread looping functionality such as **is Tick enabled**, and **start on initialize**. 
 - Wrap around the raw C++ code in the FRunnable class. 
 - Provide functions for mutex locking and unlocking. 
-2. **Design<a name="_page3_x70.00_y72.00"></a> Flow** 
+5. **Design<a name="_page3_x70.00_y72.00"></a> Flow** 
 
 The basic ThreadHandleObject execution consists of 4 steps: 
 
-1. **Initialization** 
+  **Initialization** 
 
 ![](readme_images/Aspose.Words.21330127-f8ef-4695-b1b3-0306705b814f.001.png)
 
-2. **Binding the Run Thread Body** 
+  **Binding the Run Thread Body** 
 
 ![](readme_images/Aspose.Words.21330127-f8ef-4695-b1b3-0306705b814f.002.png)
 
-3. **Starting the Thread** 
+  **Starting the Thread** 
 
 ![](readme_images/Aspose.Words.21330127-f8ef-4695-b1b3-0306705b814f.003.png)
 
-4. **Running the Thread** 
+  **Running the Thread** 
 
 ![](readme_images/Aspose.Words.21330127-f8ef-4695-b1b3-0306705b814f.004.png)
 
-1. **Logical<a name="_page4_x70.00_y72.00"></a> Behaviour** 
+6. **Logical<a name="_page4_x70.00_y72.00"></a> Behaviour** 
 
 ![](readme_images/Aspose.Words.21330127-f8ef-4695-b1b3-0306705b814f.005.png)
 
@@ -66,11 +66,11 @@ The main class, **UThreadHandleObject** is an Object of the Unreal Engine framew
 
 ![](readme_images/Aspose.Words.21330127-f8ef-4695-b1b3-0306705b814f.006.png)
 
-2. **Process<a name="_page5_x70.00_y72.00"></a> View** 
+7. **Process<a name="_page5_x70.00_y72.00"></a> View** 
 
 ![](readme_images/Aspose.Words.21330127-f8ef-4695-b1b3-0306705b814f.007.png)
 
-3. **Use<a name="_page6_x70.00_y72.00"></a> Case View** 
+8. **Use<a name="_page6_x70.00_y72.00"></a> Case View** 
 
 The first step is to create the ThreadHandleObject. Like any UObject, it is created in the constructor of an owning UObject: 
 
