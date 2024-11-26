@@ -99,4 +99,4 @@ You can utilize the mutex locking and unlocking like so:
 And…. 
 
 ![](readme_images/Aspose.Words.21330127-f8ef-4695-b1b3-0306705b814f.013.png)
-8 | P a g e ![](readme_images/Aspose.Words.21330127-f8ef-4695-b1b3-0306705b814f.014.png)
+[](readme_images/Aspose.Words.21330127-f8ef-4695-b1b3-0306705b814f.014.png)
