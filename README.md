@@ -42,19 +42,19 @@ The design goals for creating the **ThreadHandleObject** are:
 
 The basic ThreadHandleObject execution consists of 4 steps: 
 
-  **Initialization** 
+    **Initialization** 
 
 ![](readme_images/Aspose.Words.21330127-f8ef-4695-b1b3-0306705b814f.001.png)
 
-  **Binding the Run Thread Body** 
+    **Binding the Run Thread Body** 
 
 ![](readme_images/Aspose.Words.21330127-f8ef-4695-b1b3-0306705b814f.002.png)
 
-  **Starting the Thread** 
+    **Starting the Thread** 
 
 ![](readme_images/Aspose.Words.21330127-f8ef-4695-b1b3-0306705b814f.003.png)
 
-  **Running the Thread** 
+    **Running the Thread** 
 
 ![](readme_images/Aspose.Words.21330127-f8ef-4695-b1b3-0306705b814f.004.png)
 
