@@ -17,6 +17,7 @@ TABLE OF CONTENTS
 1. [Logical Behaviour ......................................................................................................... 5 ](#_page4_x70.00_y72.00)
 1. [Process View .................................................................................................................. 6 ](#_page5_x70.00_y72.00)
 1. [Use Case View............................................................................................................... 7 ](#_page6_x70.00_y72.00)
+
 1. **Introduction<a name="_page2_x70.00_y72.00"></a>** 
 
 During the development of my capstone team project in the third year of the Game Development program at Algonquin College, I developed a **UObject** wrapper for spawning and managing threads in Unreal Engine C++. The **ThreadHandleObject** is a simple UObject subclass that can be initialized like a normal ActorComponent or Actor inside any UCLASS. This document provides an architectural overview of the system and also functions as a foundational reference point for the developers. 
