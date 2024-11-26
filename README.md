@@ -3,9 +3,9 @@ Unreal Engine 5.3 plugin to create and handle threads.
 
 Thread Handle Object Technical Documentation 
 
-THREAD HANDLE OBJECT
 
-TECHNICAL DOCUMENTATION
+
+
 
 TABLE OF CONTENTS
 
